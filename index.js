@@ -21,7 +21,7 @@ function checkProjectExists(req, res, next) {
 
   return next();
 }
-
+// 
 // Middleware que dá log no número de requisições
 
 function logRequests(req, res, next) {
